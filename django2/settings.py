@@ -3,7 +3,7 @@ from pathlib import Path
 import dj_database_url
 
 # Conexão banco postgresql com heroku
-DATABASE = {
+DATABASES = {
     'default': dj_database_url.config()
 }
 
