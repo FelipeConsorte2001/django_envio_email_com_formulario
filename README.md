@@ -10,7 +10,7 @@ O projeto faz um cadastro de produto no banco de dados utilizando o PostgrenSql,
 <a href='https://django2-fc.herokuapp.com/'>Link</a>
 # Atenção
 
-<p>\Como o envio do email é feito de denvolvimento local é normal após tentar o envio do email o site ser redirecionado para a pagina 500 porque o plano do heroku que estou usando é gratuito e não tem suporte para o envio </p>
+<p>Como o envio do email é feito de denvolvimento local é normal após tentar o envio do email o site ser redirecionado para a pagina 500 porque o plano do heroku que estou usando é gratuito e não tem suporte para o envio </p>
 
 ## Rotas Do Projeto
 <ul>
