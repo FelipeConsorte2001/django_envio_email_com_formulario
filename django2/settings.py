@@ -3,10 +3,10 @@ from pathlib import Path
 import dj_database_url
 
 # Conexão banco postgresql com heroku
-DATABASES = {
+"""DATABASES = {
     'default': dj_database_url.config()
 }
-
+"""
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -18,7 +18,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-5_z$vyd3sqb^kac@2z9=ut4-!=)*g!&*$43gq!-92-oknythl9'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -74,7 +74,7 @@ WSGI_APPLICATION = 'django2.wsgi.application'
 # Usando PostgreSQL com heroKu
 
 
-"""
+
 # Conexão banco de dados mysql
 DATABASES = {
     'default': {
@@ -86,7 +86,7 @@ DATABASES = {
         'PORT': '3306'
     }
 }
-"""
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
@@ -133,7 +133,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Configurando email
 # Configuração desenvolvimento
-# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 """
 configuração email produção
